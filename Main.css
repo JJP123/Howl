@@ -1,0 +1,254 @@
+body {
+            text-align: center;
+            background: white;
+            margin: 0;
+            padding: 0;
+            color: #73318e;
+            font-family: Helvetica;
+        }
+        #h {
+            font-size: 70px;
+            font-weight: normal;
+        }
+        #h1:hover {
+            color: #73318e;
+        }
+        #logo {
+            width: 180px;
+            height: 180px;
+        }
+        a {
+            color: #371e41;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #73318e;
+        }
+        #ul {
+            color: #73318e;
+            background: #dadae3;
+            border-radius: 10px;
+            height: auto;
+            width:250px;
+            list-style-type: none;
+        }
+        #ul li {
+            border: 1px solid #c4c4cc;
+            border-radius: 10px;
+            word-break: inherit;
+        }
+        #ul li:hover {
+            background: #c4c4cc;
+            cursor: default;
+        }
+        #type, input {
+            border-radius: 10px;
+            background: #dadae3;
+            color: #73318e;
+            border: 1px solid #dadae3;
+        }
+        button {
+            height: 25px;
+            background: #dadae3;
+            border-radius: 10px;
+            border: 0;
+            color: #73318e;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #c4c4cc;
+            color: #371e41;
+            border: 0
+        }
+        button:focus {
+            outline: 0;
+        }
+        #type:hover, #input:hover {
+            background: #c4c4cc;
+            color: #371e41;
+            border: 1px solid #c4c4cc;
+        }
+        #type:hover::-webkit-input-placeholder {
+            color: #371e41
+        }
+        #input:hover::-webkit-input-placeholder {
+            color: #371e41
+        }
+        #type:focus, #input:focus {
+            outline: 0;
+        }
+        #input {
+            height: 25px;
+        }
+        
+        #footer {
+            background: #dadae3;
+            width: 100%;
+            height: 150px;
+        }
+        .dif2 {
+            color: #371e41
+        }
+        .dif2:hover {
+            color: #371e41
+        }
+        #tlogo {
+            width: 35px;
+            height: 35px;
+            float: left;
+        }
+        #header {
+            height: 35px;
+            width: 100%;
+            background: #dadae3;
+            text-align: left;
+            font-size: 25px;
+        }
+        #header a{
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+        #header a:hover {
+            color: #73318e
+        }
+        #terms {
+            float: left;
+            margin-left: 10px;
+        }
+        #goals {
+            float: right;
+            margin-right: 10px;
+        }
+        ::-webkit-input-placeholder {
+            color: #73318e;
+        }
+        #home {
+            color: #73318e
+        }
+        #type {
+            border-bottom-right-radius: 0px;
+        }
+        ::-webkit-scrollbar {
+            width: 13px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+            border-left: 1px solid #aeaeb5;
+            border-right: 1px solid #aeaeb5
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #dadae3;
+            border: 1px solid #aeaeb5;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #c4c4cc
+        }
+        ::-webkit-scrollbar-thumb:active {
+            background: #aeaeb5
+        }
+        body {
+            text-align: center
+        }
+        button {
+            min-height: 25px;
+            border-radius: 10px;
+            border: 0;
+            background: #dadae3;
+            color: #73318e;
+            cursor: pointer;
+            margin: 15px;
+        }
+        button:hover {
+            background: #c4c4cc;
+        }
+        #bu, #b2 {
+            width: 80px;
+        }
+        #bu:hover {
+            background: lightgreen;
+            color: #73318e
+        }
+        #b2:hover {
+            background: #f08080;
+        }
+        button:focus {
+            outline: 0;
+        }
+        #howl {
+            color: #371e41;
+        }
+        #howl:hover {
+            color: #73318e
+        }
+        .customSignIn {
+            height: 30px;
+            width: 30px;
+        }
+        .pinIt {
+            background: #CB2027;
+            width: 65px;
+            border-radius: 10px;
+            cursor: pointer;
+            height: 65px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .pinIt img {
+            height: 65px;
+            width: 65px
+        }
+        .googleShare {
+            background: #d14836;
+            width: 65px;
+            height: 65px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+        }
+        .googleShare img {
+            height: 65px;
+            width: 65px;
+        }
+        .facebookLike {
+            background: #3b5998;
+            height: 65px;
+            width: 65px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+        }
+        .facebookLike img {
+            height: 65px;
+            width: 65px
+        }
+        .twittterFollow {
+            background: #00aced;
+            height: 65px;
+            width: 65px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+        }
+        .twittterFollow img {
+            height: 65px;
+            width: 65px;
+        }
+        .linkedIn {
+            background: #007fb1;
+            height: 65px;
+            width: 65px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+        }
+        .linkedIn img {
+            height: 65px;
+            width: 65px
+        }
+        #dev, #home, #rules {
+            color: #73318e
+}
